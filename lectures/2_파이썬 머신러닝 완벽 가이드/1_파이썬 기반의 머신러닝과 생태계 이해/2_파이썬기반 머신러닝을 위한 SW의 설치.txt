@@ -1,0 +1,2 @@
+1. anaconda
+2. LightGBM을 위한 Visual Studio Build Tools -> Visual C++ 빌드 도구
