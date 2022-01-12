@@ -1,0 +1,15 @@
+1. 데이터 분류
+	- training / test
+	- training / validation / test
+
+2. K-Fold(교차검증)
+
+3. 성능지표
+	- 예시
+		실제정답/예측값	True	False
+		True		a	b
+		False		c	d
+	- 정밀도(Precision)	: a/a+c
+	- 재현율(Recall)	: a/a+b
+	- 정확도(Accuracy)	: a+d/a+b+c+d
+	- F1 score	: 2 * (precison * recall)/(precision + recall)
