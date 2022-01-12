@@ -1,0 +1,18 @@
+1. 결측치 처리
+	- 평균값 넣기
+	- 최빈값 넣기
+	- 데이터 제거
+	- 예시 코드
+		- df.isnull().sum()
+		- df.fillna(0)
+
+2. 범주형 변수 처리
+	- One-Hot Encoding	
+		- ex) red : 0 1 0 green : 1 0 0
+		- from sklearn.preprocessing import OneHotEncoder
+	- data binding
+
+3. Feature scaling
+	- Min-Max Normalization
+		- from sklearn.preprocessing import minmax_scale()
+	- Standardization
