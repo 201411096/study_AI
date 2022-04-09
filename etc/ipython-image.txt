@@ -1,0 +1,3 @@
+!pip install IPython
+from IPython.display import Image
+Image("imgfolder/image.png")
